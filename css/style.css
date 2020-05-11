@@ -773,7 +773,6 @@ body::-webkit-scrollbar-thumb {
 .nav__burger {
     width: 45px;
     height: 40px;
-    text-align: center;
     background: none;
     border: 2px solid #fff;
     color: #fff;
@@ -781,6 +780,8 @@ body::-webkit-scrollbar-thumb {
     font-size: 20px;
     outline: none !important;
     display: none;
-    align-items: center;
-    justify-content: center;
+}
+
+.nav__burger .far {
+    text-align: center;
 }
